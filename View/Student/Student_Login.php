@@ -189,9 +189,6 @@ if (isset($_POST['login']))
                     </div>
                 </div>
                 <button name="login" class="ui fluid large teal submit button">Login</button>
-                <div class="field" style="margin-top: 10px">
-                    <a href="">Forgort Password?</a>
-                </div>
             </div>
 
             <div class="ui error message"></div>

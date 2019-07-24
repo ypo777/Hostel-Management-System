@@ -31,9 +31,9 @@
 <div class="ui container raised segment" style="">
 
     <div class="ui secondary huge menu">
-        <div class="header item">
+        <h1 class="header item">
             Hostel Management
-        </div>
+        </h1>
     </div>
     <hr>
     <div class="ui grid">
