@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once 'LayoutHeader.php';
 include_once '../../Controller/Register_Controller.php';
+include_once 'LayoutHeader.php';
 ?>
 <div class="ui grid">
     <div class="seven wide column">
