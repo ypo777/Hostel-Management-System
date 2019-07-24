@@ -34,15 +34,6 @@
         <div class="header item">
             Hostel Management
         </div>
-        <div class="right menu">
-            <a class="item">
-                About
-            </a>
-            <a class="right item">
-
-                Contact Us
-            </a>
-        </div>
     </div>
     <hr>
     <div class="ui grid">
@@ -56,11 +47,6 @@
                 <a href="Student_History.php" class="item">
                     <h3 class="ui header">
                     <i class="history left icon"></i>Your History
-                    </h3>
-                </a>
-                <a class="item">
-                    <h3 class="ui header">
-                    <i class="paper plane left icon"></i>FeedBack
                     </h3>
                 </a>
                 <a href="Log_out.php" class="item" style="margin-top: 50px">

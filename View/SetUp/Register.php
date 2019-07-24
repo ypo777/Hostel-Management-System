@@ -36,7 +36,21 @@ include_once '../../Controller/Register_Controller.php';
                     <input type="text" name="request[rollno]" placeholder="1CST - 1">
                 </div>
             </div>
-
+            <div class="field">
+                <label>Major</label>
+                <select class="ui fluid dropdown" name="request[major]">
+                    <option value="">Major</option>
+                    <option value="CST">CST</option>
+                    <option value="CS">CS</option>
+                    <option value="CT">CT</option>
+                    <option value="SE">SE</option>
+                    <option value="KE">KE</option>
+                    <option value="HPC">HPC</option>
+                    <option value="CN">CN</option>
+                    <option value="BIS">BIS</option>
+                    <option value="ES">ES</option>
+                </select>
+            </div>
             <div class="field">
                 <label>Year</label>
                 <select class="ui fluid dropdown" name="request[year]">

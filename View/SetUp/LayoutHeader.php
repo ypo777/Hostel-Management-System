@@ -26,14 +26,6 @@
         <div class="header item">
             Hostel Management
         </div>
-        <div class="right menu">
-            <a class="item">
-                About
-            </a>
-            <a class="item">
-                Contact Us
-            </a>
-        </div>
     </div>
     <hr>
 

@@ -174,8 +174,6 @@ if (isset($_GET['check']))
 }
 if (isset($_GET['finish']))
 {
-    print_r('This is '.$_SESSION['ID']);
-
     $roomData = $roomObj->getRoomData($_SESSION['ID']);
     $roomObj->upDateRoomData($roomData['ROOM_ID']);
     $result = $student->registerStudent($_SESSION['ID'],$roomData['ROOM_ID'],$_GET['password']);
@@ -335,10 +333,12 @@ if (isset($_GET['finish']))
                 <form class="ui large form" style="max-width: 300px; margin-left: 175px" method="get" action="Confirmation_Student.php">
                     <div class="ui stacked segment">
                         <div class="ui text">
-                            <p>
-                                Your Room is 3.
+                            <h3 class="ui header">
+                                Your Room is <?php echo $roomData['ROOM_ID']; ?>
+                            </h3>
+                            <h4 class="ui header">
                                 Login to Student Page Using your email and password.
-                            </p>
+                            </h4>
                         </div>
                         <a class="ui fluid large teal submit button" href="../Student/Student_Login.php">Login </a>
                     </div>
