@@ -1,7 +1,7 @@
 </div>
     <div class="segments" style="margin-top: 10px">
         <div class="ui segment">
-            <p>Footer</p>
+            <p></p>
         </div>
     </div>
 </div>

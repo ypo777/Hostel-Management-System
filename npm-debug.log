@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--global', 'gulp-cli' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose cache add [ 'gulp-cli', null ]
+5 verbose cache add name=undefined spec="gulp-cli" args=["gulp-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp-cli',
+6 verbose parsed url   path: 'gulp-cli',
+6 verbose parsed url   href: 'gulp-cli' }
+7 silly lockFile e23a8be8-gulp-cli gulp-cli
+8 verbose lock gulp-cli /Users/yanpaingoo/.npm/e23a8be8-gulp-cli.lock
+9 silly lockFile e23a8be8-gulp-cli gulp-cli
+10 silly lockFile e23a8be8-gulp-cli gulp-cli
+11 verbose addNamed [ 'gulp-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+14 verbose lock gulp-cli@ /Users/yanpaingoo/.npm/dd34a9c8-gulp-cli.lock
+15 silly addNameRange { name: 'gulp-cli', range: '*', hasData: false }
+16 verbose url raw gulp-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cli' ]
+18 verbose url resolved https://registry.npmjs.org/gulp-cli
+19 info trying registry request attempt 1 at 17:31:51
+20 http GET https://registry.npmjs.org/gulp-cli
+21 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+22 info trying registry request attempt 2 at 17:32:02
+23 http GET https://registry.npmjs.org/gulp-cli
+24 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+25 info trying registry request attempt 3 at 17:33:03
+26 http GET https://registry.npmjs.org/gulp-cli
+27 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+28 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+29 error Error: CERT_UNTRUSTED
+29 error     at SecurePair.<anonymous> (tls.js:1350:32)
+29 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+29 error     at SecurePair.maybeInitFinished (tls.js:963:10)
+29 error     at CleartextStream.read [as _read] (tls.js:463:15)
+29 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+29 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+29 error     at doWrite (_stream_writable.js:219:10)
+29 error     at writeOrBuffer (_stream_writable.js:209:5)
+29 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+29 error     at write (_stream_readable.js:573:24)
+30 error If you need help, you may report this log at:
+30 error     <http://github.com/isaacs/npm/issues>
+30 error or email it to:
+30 error     <npm-@googlegroups.com>
+31 error System Darwin 19.0.0
+32 error command "node" "/usr/local/bin/npm" "install" "--global" "gulp-cli"
+33 error cwd /Library/WebServer/Documents/Hostel_UI
+34 error node -v v0.10.15
+35 error npm -v 1.3.5
+36 verbose exit [ 1, true ]

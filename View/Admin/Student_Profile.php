@@ -41,12 +41,11 @@ if (isset($_GET['Done']))
                 <button class="primary ui button">
                     Profile
                 </button>
-                <button class="ui price button">History</button>
                 <div class="ui one column grid" style="margin-top: 10px">
                     <div class="column">
                         <div class="ui raised segment large">
                             <h2 class="ui header">
-                                <img src="../../Custom/Images/patrick.png" class="ui circular   image">
+                                <img src="../../Custom/Images/profile.png" class="ui circular   image">
                                 Student's Profile
 
                             </h2>

@@ -80,10 +80,6 @@ $dbObj = new Database();
                                     {
                                         type   : 'empty',
                                         prompt : 'Please enter your password'
-                                    },
-                                    {
-                                        type   : 'length[6]',
-                                        prompt : 'Your password must be at least 6 characters'
                                     }
                                 ]
                             }
@@ -106,6 +102,7 @@ if (isset($_POST['login']))
     $stmt->execute();
     $data = $stmt->fetch(PDO::FETCH_ASSOC);
 
+    
     if (!$data)
     {
         ?>

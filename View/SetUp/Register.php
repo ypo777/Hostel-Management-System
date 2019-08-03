@@ -8,6 +8,13 @@ include_once 'LayoutHeader.php';
         <h1 class="header">
             Rules For Hostel
         </h1>
+        <ul class="ui list">
+            <li> <h3>အဆောင်ပိတ်ချိန် - ၉ နာရီ</h3></li>
+            <li> <h3>သတ်မှတ်ချိန်ကျော်လျှင် ဒဏ်ကြေး ဆောင်ရမည်</h3></li>
+            <li> <h3>အဆောင်မှာ ညအိပ်ညနေ သွားလျှင် ခွင့်တိုင်ရမည်</h3></li>
+            <li> <h3>အပြင်လူများ အခန်းတွင်း မခေါ်ယူ ရ​</h3></li>
+            <li> <h3>အဆောင်လစဥ်ကြေး ကို သတ်မှတ်ချိန်အတွင်း ပေးဆောင်ရမည်</h3></li>
+        </ul>
     </div>
     <div class="ten wide" style="margin-top: 20px">
         <form class="ui form" action="../../Controller/Register_Controller.php" method="get">
