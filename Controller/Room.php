@@ -1,5 +1,8 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 require_once ("db_setup.php");
 require_once ("Student.php");
 

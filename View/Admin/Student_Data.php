@@ -1,5 +1,8 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 $page_title = 'Student Data';
 
 include_once 'Layout_header.php';

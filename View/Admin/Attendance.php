@@ -1,5 +1,8 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 include_once 'Layout_header.php';
 require_once '../../Controller/Room.php';
 require_once '../../Controller/History_Data.php';

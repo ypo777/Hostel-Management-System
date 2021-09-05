@@ -1,5 +1,8 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 include_once '../../Controller/db_setup.php';
 
 $dbObj = new Database();

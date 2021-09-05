@@ -1,5 +1,8 @@
 <?php
-session_start();
+if(!isset($_SESSION))
+{
+    session_start();
+}
 include_once 'Layout_header.php';
 include_once '../../Controller/Student.php';
 
