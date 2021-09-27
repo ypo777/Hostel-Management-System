@@ -7,7 +7,7 @@ class Database
 
     public $dbname = "mysql:host=localhost;dbname=Hostel";
     public $username = "root";
-    public $password  =  "Juxdoit2021#";
+    public $password  =  "";
 
     public $conn;
 

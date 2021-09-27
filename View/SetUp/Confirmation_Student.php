@@ -111,7 +111,7 @@ $student = new Student();
 $roomObj = new Room();
 $dataObj = new Database();
 
-$_SESSION['step'] = 2;
+$_SESSION['step'] = 0;
 ?>
 
 <?php

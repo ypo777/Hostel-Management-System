@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df9921aa-d914-4fa2-9bd3-e7c675ee9e9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="df9921aa-d914-4fa2-9bd3-e7c675ee9e9c" name="Default Changelist" comment="Update Session Error">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/773e507a-b943-426c-b8f2-293d03ec8673.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/773e507a-b943-426c-b8f2-293d03ec8673.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Register_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Register_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Room.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/db_setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/db_setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Admin_Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Admin_Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Attendance.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Attendance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Bill_Management.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Bill_Management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Log_out.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Log_out.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Pending.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Pending.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Room_Select.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Room_Select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Student_Data.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Student_Data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Admin/Student_Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Admin/Student_Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/SetUp/Confirmation_Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/SetUp/Confirmation_Student.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,13 +181,24 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/View/SetUp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Custom/Images" />
       <recent name="$PROJECT_DIR$/View/Admin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/View/SetUp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Register.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/View/SetUp/Register.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.Register.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -228,8 +227,18 @@
       <workItem from="1563935833973" duration="1870000" />
       <workItem from="1563937886355" duration="170000" />
       <workItem from="1563962644206" duration="531000" />
-      <workItem from="1630844301573" duration="1049000" />
+      <workItem from="1630844301573" duration="1324000" />
+      <workItem from="1632716146873" duration="1733000" />
+      <workItem from="1632718203567" duration="85000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Session Error">
+      <created>1630845657113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630845657113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -274,6 +283,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Session Error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Session Error" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/semantic/out/semantic.css">
